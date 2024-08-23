@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: aliceblue;
+}
+
+.image-modal {
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+.caption-heading {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: rgb(63, 155, 155);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(9, 9, 36);
+  padding: 6px 8px;
+  border-radius: 10px;
+}
+
